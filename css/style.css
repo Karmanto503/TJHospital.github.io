@@ -1,0 +1,232 @@
+*{
+	margin:auto;
+	padding:auto;
+}
+
+/* CSS NAVBAR */
+.navbar{
+	width:100%;
+	background-color: cyan;
+	border-bottom:2px solid #f0f0f0;
+	position: fixed;
+	top:0;
+}
+
+.navbar div{
+	width:1200px;
+	font-family:calibri;
+	padding:10px;
+	text-align:left;
+}
+
+.navbar div table a{
+	padding:10px;
+	text-decoration:none;
+	color:rgb(0, 0, 0);
+}
+
+.navbar div table a:hover{
+	color:#428bca;
+	border-bottom:2px solid gray;
+}
+
+/* CSS HEADER */
+.head{
+	width:100%;
+	margin:auto;
+	width:100%;	
+	border-bottom:2px solid #f0f0f0;
+	padding-top: 80px;
+}
+
+.head div{
+	width:1200px;
+	height:400px;
+	font-family:calibri;
+}
+
+.head div p{
+	width:1000px;
+	font-weight:bold;
+	height:300px;
+	color:#fff;
+	opacity:0.2;
+	font-size:50px;
+	background-color:#000;
+}
+
+/* CSS CONTENT */
+.content{
+	width:100%;
+	border-bottom:2px solid #f0f0f0;
+	padding-bottom:80px;
+	padding-top: 80px;
+}
+
+.content div{
+	padding-top: 20px;
+	width:1200px;
+	color:#fff;
+	font-family:calibri;
+	text-align:right;
+}
+
+.content div table{
+	padding-top:30px;
+	width:1100px;
+	text-align:justify;
+	color:gray;
+	font-size:20px;
+}
+
+/* CSS CONTENT2 */
+.content2{
+	width:100%;
+	border-bottom:2px solid #f0f0f0;
+	padding-bottom:80px;
+	padding-top: 10px;
+}
+
+.content2 div{
+	padding-top: 20px;
+	width:1200px;
+	color:#fff;
+	font-family:calibri;
+	
+}
+
+.content2 div table{
+	padding-top:30px;
+	width:1100px;
+	text-align:justify;
+	color:gray;
+	font-size:20px;
+}
+
+/* CSS FORM */
+.form{
+	width:100%;
+	border-bottom:2px solid #f0f0f0;
+}
+
+.form div{
+	padding-top:30px;
+	width:1200px;
+	text-align:center;
+	font-family:forte;
+	font-size:30px;
+}
+
+.form div table{
+	padding-top:30px;
+	padding-bottom:80px;
+	font-size:30px;
+	width:1100px;
+	text-align:center;
+	font-family:calibri;
+	
+}
+
+/* CSS FOOTER */
+.footer{
+	width:100%;
+	background-color:#2FA5EB;
+	border-bottom:2px solid #f0f0f0;
+    text-align: center;
+	position: fixed;
+    bottom: 0;
+}
+
+.footer div{
+	width:1200px;
+	color:#fff;
+	background-color:#2FA5EB;
+	font-family:calibri;
+	padding:15px;
+	text-align:center;
+}
+
+/* CSS INPUT */
+input[type="text"]{
+    font-family: 'Courier New', Courier, monospace;
+	padding:12px;
+	width:290px;
+}
+input[type="email"]{
+    font-family: 'Courier New', Courier, monospace;
+	padding:12px;
+	width:290px;
+}
+input[type="number"]{
+    font-family: 'Courier New', Courier, monospace;
+	padding:12px;
+	width:290px;
+}
+select{
+    font-family: 'Courier New', Courier, monospace;
+	padding:12px;
+	width:320px;
+}
+textarea{
+    font-family: 'Courier New', Courier, monospace;
+	padding:50px;
+	width:550px;
+    text-align: left;
+}
+button{
+	width:250px;
+	padding:10px;
+	color:#fff;
+	font-size:20px;
+	background-color:#2FA5EB;
+}
+
+/* CSS DOCTOR US */
+.doctor_us{
+	padding-top: 110px;
+	width:500px;
+	display: flex;
+    justify-content: center;
+}
+.doctor_us div{
+	padding-top:20px;
+	text-align:center;
+	font-size:30px;
+	padding-bottom:20px;
+}
+.doctor_us div table{
+	padding-top:30px;
+	font-size:30px;
+	width:1100px;
+	text-align: center;
+	font-family:calibri;
+}
+
+/* CSS PHOTOCARD */
+.photocard {
+	width: 200px;
+	height: 300px;
+	background-color: #f0f0f0;
+	border: 1px solid #ddd;
+	border-radius: 10px;
+	text-align: center;
+	padding: 20px;
+	box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .photocard img {
+	width: 180px;
+	height: 180px;
+	border-radius: 10px;
+  }
+  
+  .photocard h2 {
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-size: 24px;
+	margin: 10px 0;
+  }
+  
+  .photocard p {
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-size: 16px;
+  }
